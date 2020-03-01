@@ -1,0 +1,22 @@
+nav {
+    background-color: #14144e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.display {
+    color: white;
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.display:hover {
+    color: #24258f;
+}
+
+.active {
+    /* color: #24258f; */
+    text-decoration: underline;
+}

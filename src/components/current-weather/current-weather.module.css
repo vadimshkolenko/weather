@@ -1,0 +1,79 @@
+.preloader {
+  display: flex;
+  justify-content: center;
+}
+
+.weatherCard {
+  width: 500px;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  border: 0px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mainInformation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainInformation .indicator:first-child {
+  padding-top: 8px;
+}
+
+.mainInformation .indicator:last-child {
+  margin-top: -20px;
+}
+
+.time {
+  opacity: 0.8;
+}
+
+.temp {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.description {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.weatherIcon {
+  font-size: 130px;
+}
+
+.feelsLike {
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+.additionalInformation .indicator {
+  padding: 16px 0;
+  border-bottom: 1px solid black;
+}
+
+.error {
+  margin: auto auto;
+}
+
+@media screen and (min-width: 0) and (max-width: 530px) {
+  .weatherCard {
+    width: 300px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .additionalInformation {
+    padding: 30px 0;
+  }
+
+  .error {
+    margin: auto auto;
+    padding: 30px;
+  }
+}

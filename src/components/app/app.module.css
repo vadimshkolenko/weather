@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+h2 {
+  text-align: center;
+  padding: 40px 0;
+}
